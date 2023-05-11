@@ -1,0 +1,147 @@
+
+
+.about__title {
+    font-size: var(--size-4xl);
+    padding: 1.0rem;
+
+}
+
+.about__description {
+    color: var(--color-slate-600);
+    padding: 1rem 0.2rem 0.2rem 1rem;
+    font-size: var(--size-base);
+}
+
+
+.about__line {
+    border: 1px solid var(--color-slate-800);
+    margin: 1rem 0.2rem 0.2rem 1rem;
+}
+
+.about__subtitle {
+    font-size: var(--size-base);
+    padding: 1.0rem;
+}
+
+.about__firstlist, .about__secondlist {
+    list-style: none;
+    padding-top: 0.5rem;
+    font-size: var(--size-base);
+    color: var(--color-slate-600);
+}
+
+.about__list {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about__image {
+    width: 70em;
+    height: 30rem;
+}
+
+
+
+/*  xs */
+ @media (min-width: 475px) {
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+ }
+
+/* sm */
+ /*@media (min-width: 640px) {
+ }*/ 
+
+/* md */
+@media (min-width: 768px) {
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+} 
+
+/* lg */
+ @media (min-width: 1024px) {
+    .about__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-right: 5rem;
+        margin-top: 2rem;
+ } 
+ .about__description {
+    font-size: var(--size-base);
+}
+
+.about__subtitle {
+    font-size: var(--size-base);
+
+}
+.about__firstlist, .about__secondlist {
+    font-size: var(--size-base);
+   
+}
+
+.about__image {
+    width: 80em;
+    height: 30rem;
+}
+
+/* xl */
+ @media (min-width: 1280px) {
+    .about__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-right: 5rem;
+        margin-top: 5rem;
+ } 
+
+    .about__description {
+        font-size: var(--size-xl);
+}
+
+    .about__subtitle {
+        font-size: var(--size-xl);
+    
+}
+    .about__firstlist, .about__secondlist {
+        font-size: var(--size-xl);
+       
+}
+
+    .about__image {
+        width: 80em;
+        height: 30rem;
+}
+ }
+
+/* 2xl */
+ @media (min-width: 1536px) {
+    .about__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-right: 5rem;
+        margin-top: 5rem;
+ } 
+    .about__description {
+        font-size: var(--size-xl);
+ } 
+}
+}

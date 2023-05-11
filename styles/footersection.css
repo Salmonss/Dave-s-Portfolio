@@ -1,0 +1,9 @@
+.footer__container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 0.1em;
+    color: var(--color-rose);
+}
